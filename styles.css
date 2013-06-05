@@ -1,4 +1,13 @@
+body {
+background-color: grey;
+}
+
+header {
+	background-image
+}
+
 header h1 {
+	color: white;
 	width:1223px;
 	margin: 0px auto;
 }
@@ -11,4 +20,20 @@ section {
 
 section img {
 	display: block; 
+}
+
+#img-top {
+	border-top:5px dashed white;
+	border-left:5px dashed white;
+	border-right:5px dashed white;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#img-btm {
+	border-bottom: 5px dashed white;
+	border-left:5px dashed white;
+	border-right:5px dashed white;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
